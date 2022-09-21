@@ -189,8 +189,6 @@ def handle_invalid_usage(error):
 def insert_data():
     app.logger.info('inserting data')
 
-    rConn.flushall()
-
     keys = ['bill', 'dan', 'shri']
 
     data = [
