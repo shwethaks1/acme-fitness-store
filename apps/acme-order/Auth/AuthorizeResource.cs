@@ -58,7 +58,8 @@ namespace acme_order.Auth
             {
                 throw new AuthenticationException();
             }
-        }
 */
+        }
+
     }
 }
