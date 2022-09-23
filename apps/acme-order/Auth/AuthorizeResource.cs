@@ -51,7 +51,7 @@ namespace acme_order.Auth
             var url = $"{_acmeServiceSettings.AuthUrl}/verify-token";
 
             using var client = new HttpClient();
-
+/*
             var response = await client.PostAsync(url, data);
 
             if (!response.IsSuccessStatusCode)
@@ -59,5 +59,6 @@ namespace acme_order.Auth
                 throw new AuthenticationException();
             }
         }
+*/
     }
 }
