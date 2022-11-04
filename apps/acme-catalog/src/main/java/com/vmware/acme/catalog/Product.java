@@ -46,7 +46,7 @@ public class Product {
             for (int i = 0; i < productResponse.getTags().size(); i++) {
                 tags = tags + productResponse.getTags().get(i);
                 if (i < productResponse.getTags().size() - 1) {
-                    tags = tags;
+                    tags = tags + ",";
                 }
             }
         }
